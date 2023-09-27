@@ -1,0 +1,16 @@
+.coin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .coin{
+    background-color: gold;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    color: black;
+}
+
+  

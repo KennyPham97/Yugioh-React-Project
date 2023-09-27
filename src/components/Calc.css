@@ -1,0 +1,25 @@
+/* .calc{
+    display: flex;
+    justify-content: center;
+} */
+
+.input {
+    height: 30px;
+    font-size: small;
+}
+
+.add{
+    height: 60px;
+    background-color: green;
+}
+
+.sub{
+    height:60px;
+    background-color: red;
+}
+
+.puzzle{
+    height:60px
+}
+
+
