@@ -1,7 +1,7 @@
 import React from 'react'
+import Stopwatch from './components/Stopwatch'
 import Api from './components/Api'
 import Calc from './components/Calc'
-import Stopwatch from './components/Stopwatch'
 import './App.css'
 
 const App = () => {
