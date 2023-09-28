@@ -21,11 +21,14 @@ function AddNumbers() {
 
   return (
     <div className='calc'>
+      <div>
+        <img className = 'puzzle'src ='https://cdna.artstation.com/p/assets/images/images/033/535/002/original/alberto-umana-millenium-pussle.gif?1609877865'></img>
+      </div>
       <div><CoinFlipper/></div>
       
 
       <div><Stopwatch /></div>
-      <h3>Life Points <img className = 'puzzle'src ='https://cdna.artstation.com/p/assets/images/images/033/535/002/original/alberto-umana-millenium-pussle.gif?1609877865'></img></h3>
+      <h3>Life Points </h3>
       
       
       <input className='input'

@@ -38,6 +38,7 @@
 
 // export default Stopwatch;
 import React, {useState, useEffect, useRef} from 'react'
+import './Stopwatch.css'
 
 const Stopwatch = () => {
   const [lapse, setLapse] = useState(0)
@@ -96,10 +97,16 @@ const Stopwatch = () => {
   
   return (
     <div>
-      <h3>Game Timer</h3>
-      <label>{convertToTime(lapse)}</label>
+      <div>
+      <h3 className='game-timer'>Game Timer</h3>
+      <label className='time'>{convertToTime(lapse)}</label>
+
+      </div>
+      <div>
+
       <button onClick={handleStartClick}>{running ? 'Stop' : 'Start'}</button>
       <button onClick={handleResetClick}>Clear</button>
+      </div>
     </div>
   )
 }

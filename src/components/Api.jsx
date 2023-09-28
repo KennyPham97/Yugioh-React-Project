@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Api.css'
 
 const ChuckNorrisJoke = () => {
   const [joke, setJoke] = useState('');
@@ -16,13 +17,15 @@ const ChuckNorrisJoke = () => {
     } 
 
   return (
-    <div>
-      <button onClick={fetchJoke}>
-        Click Here for Jokes
+    <div className='api'>
+      <input className='input-field' type="text" placeholder='Type in a card name'/>
+      
+      <button className='search-button' onClick={fetchJoke}>
+        Card Search
       </button>
       
         <div>
-          <h2>Chuck Norris Joke:</h2>
+          <h2>Card Photo goes here</h2>
           <p>{joke}</p>
         </div>
     </div>
