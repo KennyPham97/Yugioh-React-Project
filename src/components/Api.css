@@ -1,0 +1,13 @@
+
+.api{
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.input-field{
+    height: 40px;
+}
+
+.search-button{
+    height: 50px;
+}
